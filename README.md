@@ -19,7 +19,10 @@
   - RBF Kernel
   - Relationship between RBF and Polynomial Kernel
   - More forms of Kernels
-- Summary for whole SVM Concept
+
+
+**Summary for whole SVM Concept**
+
 In SVM, the goal is to maximize the margin between two classes by finding the optimal hyperplane. The problem can be formulated as a primal optimization problem where we directly try to minimize a loss function that includes a margin constraint.
 
 However, solving this primal form directly can be inefficient, especially when dealing with constraints. To transform it, we use Lagrange multipliers – a mathematical technique that helps convert optimization problems with constraints into another form, called the dual form.
